@@ -1,5 +1,5 @@
-function myFunction(param1, param2){
-	var sum = param1 + param2;
+function myFunction(number1, number2){
+	var sum = number1 + number2;
 	var sum1 = sum.toString();
 	var i = 0;
 	var j = sum1.length;
@@ -7,7 +7,7 @@ function myFunction(param1, param2){
 	while(i < j){
 		if (sum1[i] == "3"){
 			s = true;
-		}else if ((3 == param1) || (param2 == 3)) {
+		}else if ((3 == number1) || (number2 == 3)) {
 		
 			s = true;
 		}else{
