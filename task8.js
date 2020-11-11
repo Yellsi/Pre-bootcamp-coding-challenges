@@ -1,4 +1,4 @@
-function toHAndM(num){
+function toHours(num){
 	if (num > 60){
 		var hours = num / 60
 		hours = Math.floor(hours);
@@ -7,7 +7,7 @@ function toHAndM(num){
 		if (hours == 1){
 			console.log(hours + " hour, "+ minutes + " minutes");
 		}else{
-			console.log(hours + " hours, " + minutes + " minutes.");
+			console.log(hours + " hours, " + minutes + " minutes");
 		}
 	}else{
 		console.log(num + "minutes");
