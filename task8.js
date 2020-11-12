@@ -1,6 +1,7 @@
+<<<<<<< HEAD
 function toHoursAndMinutes(num){
 	if (num >= 60){
-		var hours = num / 60;
+		var hours = num / 60
 		hours = Math.floor(hours);
 		var s = 60 * hours;
 		var minutes = num - s;
@@ -15,7 +16,8 @@ function toHoursAndMinutes(num){
 		if (minutes > 1){
 			j = minutes + " minutes";
 		}else if (minutes == 1){
-			j = minutes + " minute";
+			j = minutes + " minute"
+			console.log(hours + " hours, " + minutes + " minutes");
 		}
 		else{
 			j = "";

@@ -1,17 +1,17 @@
-function printVow(param){
-	param = param.toLowerCase();
-	var s = param.length;
+function printVow(word){
+	word = word.toLowerCase();
+	var lengthOfWord = word.length;
 	var i = 0;
-	var a = [];
-	while (i < s)
+	var vowelsInWord = [];
+	while (i < lengthOfWord)
 	{
-		if ((param[i] == "a")|| (param[i] == "e")|| (param[i] == "i") || (param[i] =="o") || (param[i] == "u"))
+		if ((word[i] == "a")|| (word[i] == "e")|| (word[i] == "i") || (word[i] =="o") || (word[i] == "u"))
 		{
-		a.push(param[i]);
+			vowelsInWord.push(word[i]);
 		}
 		i++;
 	}
-	return a;
+	return vowelsInWord;
 }
 
 
