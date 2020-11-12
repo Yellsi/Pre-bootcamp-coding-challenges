@@ -1,11 +1,11 @@
-function toF(num1){
-	var fah = num1 + 32;
-	return fah;
+function toFahrenheit(num1){
+	var fahrenheit = num1 + 32;
+	return fahrenheit;
 }
 
 //from fahrenheit to celsius
 function toCelsius(num){
-	var cel = num - 32;
-	return cel;
+	var celsius = num - 32;
+	return celsuis;
 }
 
