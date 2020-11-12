@@ -3,40 +3,13 @@ function sumOfNum(){
 	var s;
 	var h;
 	var sum = 0;
-	while (i < 1000)
+	for (i = 0; 1 < 1000; i++)
 	{
 		s = i % 3;
 		h = i % 5;
 		if((s == 0) || (h == 0)){
 			sum += i;
 		}
-		i++;
 	}
 	return sum;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
