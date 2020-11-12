@@ -14,4 +14,4 @@ function ifNumbersHave3(number1, number2){
 	}else{
 		return false;
 	}
-}
+} 
