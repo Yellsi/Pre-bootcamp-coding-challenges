@@ -1,5 +1,5 @@
 function sumOfNum(){
-	var i = 1;
+	var i;
 	var remaindersFromMultiplesOf3;
 	var remaindersFromMultiplesof5;
 	var sum = 0;
